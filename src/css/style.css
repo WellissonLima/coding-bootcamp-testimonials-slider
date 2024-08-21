@@ -1,0 +1,89 @@
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.slider-container {
+    height: 100vh;
+    position: relative;
+}
+
+.slider-container .slide {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-image: url("../images/pattern-bg.svg"), url("../images/pattern-curve.svg"), url("../images/pattern-quotes.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right 130px top 70px, left bottom, left 360px top 210px;
+    background-size: 580px 550px, auto, 80px 80px;
+}
+
+.slider-container .slide.mostrar {
+    opacity: 1;
+}
+
+.slider-container .slide .conteudo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    width: 1100px;
+}
+
+.slider-container .slide .conteudo .info {
+    max-width: 650px;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    z-index: 1;
+}
+
+.slider-container .slide .conteudo .info .text {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.slider-container .slide .conteudo .info .name {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.slider-container .slide .conteudo .info .job {
+    display: inline-block;
+    color: hsl(240, 18%, 77%);
+}
+
+.slider-container .slide .conteudo .image {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btns {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 78%;
+    right: 34%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btns .btn-prev {
+    padding: 15px;
+}
+
+.btns .btn-next {
+    padding: 15px;
+}
