@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ Solution ](https://github.com/WellissonLima/coding-bootcamp-testimonials-slider/)
-- Live Site URL: [ Site ](https://wellissonlima.github.io/coding-bootcamp-testimonials-slider/)
+- Solution URL: [ GitHub ](https://github.com/WellissonLima/coding-bootcamp-testimonials-slider/)
+- Live Site URL: [ Slide ](https://wellissonlima.github.io/coding-bootcamp-testimonials-slider/)
 
 ## My process
 
